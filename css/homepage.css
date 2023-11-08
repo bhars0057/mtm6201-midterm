@@ -8,6 +8,7 @@ video{
   object-fit: cover;
 }
 
+
 .banner::after{
   content: "";
   width: 100%;
@@ -24,6 +25,7 @@ header{
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* banner content */
 .banner-content{
   position: absolute;
   top: 50%;
@@ -40,6 +42,7 @@ h1, h2{
   color:var(--accent);
 }
 
+/* products wrapper */
 .story, #our-products{
   padding: 100px 0;
 }
@@ -54,6 +57,7 @@ h1, h2{
   gap: 50px;
 }
 
+/* testimonials weapper */
 .customization, #testimonials{
   position: relative;
   overflow: hidden;
@@ -125,6 +129,7 @@ form button{
   display: flex;
   gap: 50px;
 }
+/* product style */
 
 .product{
   display: flex;
