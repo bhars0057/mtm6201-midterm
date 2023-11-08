@@ -1,0 +1,10 @@
+:root{
+
+  /* Color */
+
+  --primary: #A071AF;
+  --primary-half: rgba(160, 114, 175, 0.8);
+  --accent: #91562E;
+
+  /* --header-height: 160px; */
+}

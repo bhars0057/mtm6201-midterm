@@ -1,0 +1,44 @@
+/* @keyframes slider{
+  0%{
+    transform: translate(0%);
+  }
+  0%{
+    transform: translate(20%);
+  }
+  0%{
+    transform: translate(40%);
+  }
+  0%{
+    transform: translate(60%);
+  }
+  0%{
+    transform: translate(80%);
+  }
+  0%{
+    transform: translate(100%);
+  }
+  0%{
+    transform: translate(120%);
+  }
+  0%{
+    transform: translate(140%);
+  }
+  0%{
+    transform: translate(160%);
+  }
+  0%{
+    transform: translate(180%);
+  }
+  0%{
+    transform: translate(200%);
+  }
+} */
+
+@keyframes slideIn {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}

@@ -1,0 +1,53 @@
+@import "global.css";
+
+.contact-us{
+  /* display: flex; */
+  /* gap: 50px; */
+
+  padding-top: 210px;
+  padding-bottom: 100px;
+}
+
+.contact-us .content{
+  display: flex;
+  gap: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+form, .form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+form > div{
+  display: flex;
+  gap: 20px;
+}
+
+form input, form textarea{
+  padding: 15px;
+  width: 100%;
+}
+
+form button{
+  align-self: center;
+}
+
+.map{
+  width: 40%;
+  object-fit: cover;
+}
+

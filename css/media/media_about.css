@@ -1,0 +1,17 @@
+@media only screen and (max-width:599px){
+  
+  .about-us{
+    flex-direction: column;
+  }
+
+  main img{
+    width: 100%;
+  } 
+}
+
+@media only screen and (min-width:600px){
+  
+  main img{
+    max-width: 40%;
+  } 
+}

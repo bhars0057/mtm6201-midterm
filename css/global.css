@@ -1,0 +1,205 @@
+@import "reset.css";
+@import "variable.css";
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import "media_global.css";
+
+/* General Styling Here*/
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  overscroll-behavior-y: none;
+}
+
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-family: 'Chewy', serif;
+  font-size: 5rem;
+}
+
+h2{
+  font-family: 'Chewy', serif;
+  font-size: 2.5rem;
+  padding: 20px 0;
+}
+
+h3{
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+p, p+p{
+  padding-bottom: 10px;
+}
+
+hr{
+  width: 100%;
+  border-width: 0;
+  height: 2px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.colored-text{
+  color: var(--primary); 
+}
+
+button{
+  padding: 1rem 2rem;
+  background-color: var(--primary);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 25px;
+  border: none;
+}
+
+button:hover,
+button:focus{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+form, input, textarea{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.topbar{
+  padding: 30px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  max-height: 100px;
+  width: auto;
+}
+
+.topbar nav{
+  display: flex;
+  gap: 3rem;
+
+  align-items: center;
+}
+
+.main-nav ul{
+  display: flex;
+  gap: 3rem;
+}
+
+.main-nav ul li a{
+  transition:all 0.5s;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a:focus{
+  font-size: 1.2rem;
+  transition: all 0.5s;
+  color: var(--primary);
+}
+
+.main-nav ul li a:active{
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+footer{
+  background-color: #efefef;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 50px 0;
+}
+
+footer img{
+  max-width: 250px;
+}
+
+footer .main-nav ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content ul li{
+  margin-bottom: 5px;
+}
+
+footer .container>a{
+  width: 30%;
+}
+
+footer i{
+  color: var(--primary);
+  margin-right: 10px;
+}
+
+.footer-content a{
+  display: block;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.footer-content a:hover,
+.footer-content a:focus{
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  text-decoration: underline;
+  color: var(--primary);
+}
+
+a.contact{
+  cursor: pointer;
+}
+
+footer small{
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 10px 0;
+}
+

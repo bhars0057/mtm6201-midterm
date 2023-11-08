@@ -1,0 +1,106 @@
+/* from medium screen size to large screen transition*/
+
+@media only screen and (min-width:992px) and (max-width:1340px){
+
+  .container{
+    margin: 0 20px;
+  }
+
+}
+
+/* from small size to medium screen transition*/
+
+@media only screen and (min-width:600px) and (max-width:768px){
+
+  .container{
+    margin: 0 20px;
+  }
+
+}
+
+@media only screen and (max-width:455px){
+
+  .container{
+    margin: 0 20px;
+  }
+
+}
+
+/* for medium screen */
+
+@media only screen and (max-width:992px){
+
+ .container{
+  max-width: 768px;
+ }
+
+ h1{
+  font-size: 4rem;
+ }
+
+ h2{
+  font-size: 2rem;
+ }
+
+ h3{
+  font-size: 1.6rem;
+ }
+
+ h4{
+  font-size: 1.3rem;
+ }
+
+ button{
+  padding: 0.5rem 1rem;
+ }
+
+ footer .main-nav ul{
+  display: none;
+ }
+
+ footer .container{
+  gap: 30px;
+ }
+
+}
+
+/* for small screen size */
+
+@media only screen and (max-width:599px){
+
+  .container{
+    max-width: 435px;
+  }
+
+  header .main-nav ul{
+    /* display: none; */
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+  }
+
+  header button{
+    display: none;
+  }
+
+  h1{
+    font-size: 3.5rem;
+  }
+
+  h2{
+    font-size: 1.7rem;
+  }
+
+  h3{
+    font-size: 1.4rem;
+  }
+
+  h4{
+    font-size: 1.2rem;
+  }
+
+  footer .container{
+    flex-direction: column;
+  }
+
+}
